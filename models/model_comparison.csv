@@ -1,0 +1,4 @@
+Model,Accuracy
+Random Forest,0.9333333333333333
+Decision Tree,0.9
+SVM,0.8777777777777778
