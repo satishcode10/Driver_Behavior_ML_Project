@@ -53,7 +53,7 @@ The dataset includes variables such as:
 
 ---
 
-## ⚙️ Project Workflow
+## Project Workflow
 
 ```text
 Data Collection
