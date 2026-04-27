@@ -1,34 +1,75 @@
-# Machine Learning-Based Driver Behavior Analysis and Accident Risk Prediction System
+# Driver Behavior Analysis & Accident Risk Prediction System
 
-## Overview
-This project uses machine learning to predict accident severity based on road traffic accident data.
+Machine Learning-based project developed to analyze driver-related factors and predict accident severity using real-world road traffic accident data. The system applies supervised learning algorithms and unsupervised clustering techniques to generate actionable safety insights.
 
-## Machine Learning Techniques Used
+---
+
+##  Project Objective
+
+Road traffic accidents remain a major public safety concern worldwide. This project aims to:
+
+- Predict accident severity using driver, road, and environmental features
+- Compare multiple machine learning models for performance
+- Identify the most influential factors causing severe accidents
+- Discover hidden patterns using clustering techniques
+- Support smarter traffic safety planning and prevention strategies
+
+---
+
+## Dataset Used
+
+**Road Traffic Accident Dataset**
+
+Source: Kaggle  
+https://www.kaggle.com/datasets/saurabhshahane/road-traffic-accidents
+
+The dataset includes variables such as:
+
+- Driver age group
+- Driving experience
+- Vehicle type
+- Road surface condition
+- Weather conditions
+- Light conditions
+- Junction control
+- Number of vehicles involved
+- Number of casualties
+- Accident severity
+
+---
+
+## Machine Learning Models Used
+
+### Supervised Learning
+
 - Logistic Regression
-- Decision Tree
-- Random Forest
-- K-Means Clustering with PCA
+- Decision Tree Classifier
+- Random Forest Classifier
 
-## Best Model
-Random Forest achieved the highest accuracy among the tested classification models.
+### Unsupervised Learning
 
-## Project Structure
-- data/ : Dataset files
-- notebooks/ : Jupyter Notebook implementation
-- models/ : Saved trained model
-- outputs/ : Graphs and result outputs
+- K-Means Clustering
+- PCA (Principal Component Analysis)
 
-## How to Run
-1. Install the required libraries:
-   pip install -r requirements.txt
+---
 
-2. Open Jupyter Notebook:
-   jupyter notebook
+## ⚙️ Project Workflow
 
-3. Open:
-   notebooks/driver_behavior_project.ipynb
-
-4. Run all cells from top to bottom.
-
-## Author
-Satish Adhikari
+```text
+Data Collection
+↓
+Data Cleaning
+↓
+Missing Value Handling
+↓
+Categorical Encoding
+↓
+Exploratory Data Analysis
+↓
+Model Training
+↓
+Performance Evaluation
+↓
+Feature Importance Analysis
+↓
+Clustering & Visualization
